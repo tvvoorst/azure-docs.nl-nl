@@ -22,17 +22,17 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="troubleshoot-visual-studio-2017-development-with-docker"></a>Ontwikkeling van een Visual Studio 2017 met Docker oplossen
 
-Wanneer u met Visual Studio Tools voor Docker werkt, kunnen problemen optreden tijdens het bouwen van of foutopsporing van uw toepassing. Hieronder worden enkele algemene stappen voor probleemoplossing.
+Wanneer u met Visual Studio Tools voor Docker werkt, kunnen problemen optreden tijdens het bouwen van of foutopsporing van uw toepassing. Hieronder worden enkele algemene stappen voor probleemoplossing behandeld.
 
 ## <a name="volume-sharing-is-not-enabled-enable-volume-sharing-in-the-docker-ce-for-windows-settings--linux-containers-only"></a>Delen van het volume is niet ingeschakeld. Volume delen in de Docker CE voor Windows-instellingen (alleen voor Linux-containers) inschakelen
 
 Dit probleem oplossen:
 
-1. Met de rechtermuisknop op **Docker voor Windows** in het systeemvak en selecteer vervolgens **instellingen**.
+1. Met de rechtermuisknop op **Docker voor Windows** in het systeemvak klikken en selecteer vervolgens **instellingen**.
 1. Selecteer **gedeelde stations** en delen van het systeemstation samen met het station waarop het project zich bevindt.
 
 > [!NOTE]
-> Als de bestanden worden gedeeld weergegeven, moet u mogelijk nog steeds klikt u op de koppeling 'Opnieuw instellen van referenties...' aan de onderkant van het dialoogvenster om het opnieuw inschakelen volume delen.
+> Als de de gedeelde bestanden worden weergeven, moet u mogelijk nog steeds op de knop 'Opnieuw instellen van referenties...' aan de onderkant van het dialoogvenster klikken. Hiermee word het delen van het volume opnieuw ingesteld.
 
 ![gedeelde stations](./media/vs-azure-tools-docker-troubleshooting-docker-errors/shareddrives.png)
 
